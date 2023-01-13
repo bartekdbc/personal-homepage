@@ -6,5 +6,9 @@ export const theme = {
     slateGray: "#6E7E91",
     scienceBlue: "#0366D6",
   },
-  breakpoint: {},
+  breakpoint: {
+    small: "467px",
+    mobile: "767px",
+    medium: "991px",
+  },
 };
