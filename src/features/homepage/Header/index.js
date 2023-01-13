@@ -9,6 +9,7 @@ import {
 } from "./styled";
 import picture from "../images/picture.jpg";
 import { ReactComponent as MessageIcon } from "../images/message.svg";
+import { email } from "../email";
 
 const Header = () => (
   <Wrapper>
@@ -20,7 +21,7 @@ const Header = () => (
         👨‍💻 I'm a passionate Frontend Developer in love with React, currently
         looking for new job opportunities.
       </Text>
-      <Button>
+      <Button href={`mailto:${email}`} title={email} rel="noopener noreferrer">
         <MessageIcon />
         Hire Me
       </Button>

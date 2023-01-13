@@ -79,7 +79,7 @@ export const Text = styled.p`
   }
 `;
 
-export const Button = styled.button`
+export const Button = styled.a`
   color: ${({ theme }) => theme.color.white};
   border: 1px solid rgba(209, 213, 218, 0.3);
   padding: 12px 16px;
@@ -90,6 +90,9 @@ export const Button = styled.button`
   justify-content: center;
   align-items: center;
   gap: 16px;
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+  text-decoration: none;
 
   &:hover {
     box-shadow: 2px -2px 0px #8cc2ff, -2px 2px 0px #8cc2ff, 2px 2px 0px #8cc2ff,
