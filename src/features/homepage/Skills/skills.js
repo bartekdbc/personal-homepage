@@ -22,11 +22,3 @@ export const skills = [
   { content: "React" },
   { content: "Git" },
 ];
-
-export const nextSkills = [
-  { content: "JS classes" },
-  { content: "Typescript" },
-  { content: "Node.js" },
-  { content: "Cypress" },
-  { content: "Unit testing" },
-];
