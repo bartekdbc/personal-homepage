@@ -1,12 +1,17 @@
 import styled from "styled-components";
 
 export const StyledSection = styled.section`
-  margin: 0 0 72px;
+  margin-bottom: 72px;
   padding: 32px 32px 24px;
   background-color: ${({ theme }) => theme.color.white};
   border-radius: 4px;
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02),
     0px 16px 58px rgba(9, 10, 51, 0.03);
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
+    margin-bottom: 48px;
+    padding: 16px 16px;
+  }
 `;
 
 export const Title = styled.h2`
@@ -14,5 +19,10 @@ export const Title = styled.h2`
   font-weight: 900;
   margin: 0;
   padding: 0 0 16px;
-  border-bottom: 1px solid rgba(209, 213, 218, 0.3);
+  border-bottom: 1px solid ${({ theme }) => theme.color.underlineGray};
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
+    font-size: 18px;
+    padding: 0 0 12px;
+  }
 `;

@@ -9,22 +9,23 @@ export const Wrapper = styled.div`
   font-size: 20px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.medium}) {
-    grid-template-columns: 1fr;
     grid-gap: 32px;
+    margin-bottom: 48px;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
     grid-gap: 16px;
+    grid-template-columns: 1fr;
   }
 `;
 
 export const Image = styled.img`
-  width: 33vw;
-  max-width: 398px;
+  width: 40vw;
+  max-width: 390px;
   border-radius: 50%;
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.medium}) {
-    width: 50vw;
+  @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
+    min-width: 128px;
   }
 `;
 
@@ -34,8 +35,8 @@ export const Content = styled.div`
   align-items: flex-start;
   padding-top: 64px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.medium}) {
-    padding-top: 0px;
+  @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
+    padding-top: 12px;
   }
 `;
 
@@ -55,6 +56,7 @@ export const Title = styled.h1`
 
   @media (max-width: ${({ theme }) => theme.breakpoint.medium}) {
     font-size: 30px;
+    padding: 8px 0 16px;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
@@ -102,6 +104,10 @@ export const Button = styled.a`
 
   &:active {
     box-shadow: inset 0px 2px 0px rgba(20, 70, 32, 0.2);
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
+    font-size: 18px;
   }
 `;
 

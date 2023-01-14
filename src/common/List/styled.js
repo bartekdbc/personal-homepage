@@ -7,6 +7,16 @@ export const StyledList = styled.ul`
   margin: 32px 0 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.large}) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    font-size: 14px;
+    margin: 12px 0 0;
+  }
 `;
 
 export const ListItem = styled.li`
@@ -24,5 +34,11 @@ export const ListItem = styled.li`
     background-color: ${({ theme }) => theme.color.cornflowerBlue};
     border-radius: 50%;
     margin-right: 16px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
+      width: 6px;
+      height: 6px;
+      margin-right: 8px;
+    }
   }
 `;
