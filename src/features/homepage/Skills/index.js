@@ -1,7 +1,7 @@
 import { nanoid } from "@reduxjs/toolkit";
 import List from "../../../common/List";
 import Section from "../../../common/Section";
-import { skills } from "../skillset";
+import { skills } from "./skills";
 
 const Skills = () => {
   const skillsWithIndex = skills.map((skill) => ({
