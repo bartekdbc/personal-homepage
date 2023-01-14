@@ -1,4 +1,4 @@
-import { Container } from "./Container";
+import { Container } from "../../common/Container";
 import Header from "./Header";
 import Skills from "./Skills";
 
