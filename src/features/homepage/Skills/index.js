@@ -1,18 +1,20 @@
-import { Bullet, Item, List, Title, Wrapper } from "./styled";
+import { nanoid } from "@reduxjs/toolkit";
+import List from "../../../common/List";
+import Section from "../../../common/Section";
 import { skills } from "../skillset";
 
-const Skills = () => (
-  <Wrapper>
-    <Title>My skill set includes 🛠️</Title>
-    <List>
-      {skills.map(({ content }) => (
-        <Item>
-          <Bullet />
-          {content}
-        </Item>
-      ))}
-    </List>
-  </Wrapper>
-);
+const Skills = () => {
+  const skillsWithIndex = skills.map((skill) => ({
+    ...skill,
+    id: nanoid(),
+  }));
+
+  return (
+    <Section
+      title={"My skill set includes ⚒️"}
+      body={<List listContent={skillsWithIndex} />}
+    ></Section>
+  );
+};
 
 export default Skills;
