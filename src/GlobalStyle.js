@@ -14,5 +14,6 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Inter', sans-serif;
     color: ${({ theme }) => theme.color.black};;
     padding: 16px;
+    letter-spacing: 0.05em;
   }
 `;

@@ -50,7 +50,7 @@ export const MiniTitle = styled.p`
 export const Title = styled.h1`
   font-size: 38px;
   font-weight: 900;
-  padding: 12px 0;
+  padding: 12px 0 35px;
   margin: 0;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.medium}) {
@@ -64,10 +64,9 @@ export const Title = styled.h1`
 
 export const Text = styled.p`
   color: ${({ theme }) => theme.color.slateGray};
-  padding: 32px 0;
+  padding: 0 0 32px;
   line-height: 1.4;
   margin: 0;
-  letter-spacing: 0.05em;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.medium}) {
     padding: 12px 0 24px;
@@ -81,6 +80,8 @@ export const Text = styled.p`
 
 export const Button = styled.a`
   color: ${({ theme }) => theme.color.white};
+  font-weight: 600;
+  line-height: 24px;
   border: 1px solid rgba(209, 213, 218, 0.3);
   padding: 12px 16px;
   border-radius: 4px;
