@@ -7,8 +7,8 @@ import {
   Title,
   Wrapper,
 } from "./styled";
-import picture from "../images/picture.jpg";
-import { ReactComponent as MessageIcon } from "../images/message.svg";
+import picture from "./images/picture.jpg";
+import { ReactComponent as MessageIcon } from "./images/message.svg";
 import { email } from "../email";
 
 const Header = () => (
