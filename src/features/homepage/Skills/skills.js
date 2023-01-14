@@ -13,6 +13,7 @@ export const skills = [
   { content: "React Hooks" },
   { content: "Error handling" },
   { content: "Working with API (fetch, axios)" },
+  // eslint-disable-next-line
   { content: "JavaScript: ES6+" },
   { content: "Promises, Async/Await" },
   { content: "GitHub Pull Requests & Review" },
