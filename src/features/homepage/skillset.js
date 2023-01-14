@@ -1,0 +1,32 @@
+export const skills = [
+  { content: "Semantic & accessible HTML" },
+  { content: "Responsive Web Design" },
+  { content: "Teamwork" },
+  { content: "Markdown" },
+  { content: "Immutability" },
+  { content: "CSS BEM convention" },
+  { content: "CSS Grid" },
+  { content: "CSS Flexbox" },
+  { content: "React Router" },
+  { content: "Redux-Saga" },
+  { content: "Redux (Toolkit)" },
+  { content: "React Hooks" },
+  { content: "Error handling" },
+  { content: "Working with API (fetch, axios)" },
+  { content: "JavaScript: ES6+" },
+  { content: "Promises, Async/Await" },
+  { content: "GitHub Pull Requests & Review" },
+  { content: "Trello" },
+  { content: "Scrum" },
+  { content: "NPM" },
+  { content: "React" },
+  { content: "Git" },
+];
+
+export const nextSkills = [
+  { content: "JS classes" },
+  { content: "Typescript" },
+  { content: "Node.js" },
+  { content: "Cypress" },
+  { content: "Unit testing" },
+];
