@@ -1,4 +1,5 @@
 import { Container } from "../../common/Container";
+import Footer from "./Footer";
 import FutureSkills from "./FutureSkills";
 import Header from "./Header";
 import Portfolio from "./Portfolio";
@@ -11,6 +12,7 @@ function Homepage() {
       <Skills />
       <FutureSkills />
       <Portfolio />
+      <Footer />
     </Container>
   );
 }
