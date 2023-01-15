@@ -18,6 +18,12 @@ export const Contact = styled.a`
   font-weight: 900;
   color: ${({ theme }) => theme.color.black};
   text-decoration: none;
+  transition: 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    color: ${({ theme }) => theme.color.scienceBlue};
+  }
 `;
 
 export const Content = styled.p`
