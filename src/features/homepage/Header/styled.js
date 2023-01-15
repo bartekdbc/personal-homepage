@@ -84,7 +84,7 @@ export const Button = styled.a`
   color: ${({ theme }) => theme.color.white};
   font-weight: 600;
   line-height: 24px;
-  border: 1px solid rgba(209, 213, 218, 0.3);
+  border: 1px solid ${({ theme }) => theme.color.underlineGray};
   padding: 12px 16px;
   border-radius: 4px;
   background-color: ${({ theme }) => theme.color.scienceBlue};
