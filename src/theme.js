@@ -6,7 +6,6 @@ export const theme = {
     slateGray: "#6E7E91",
     underlineGray: "rgba(209, 213, 218, 0.3)",
     scienceBlue: "#0366D6",
-    cornflowerBlue: "#0366D6",
   },
   breakpoint: {
     small: "767px",

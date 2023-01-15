@@ -31,7 +31,7 @@ export const ListItem = styled.li`
     display: inline-block;
     width: 9px;
     height: 9px;
-    background-color: ${({ theme }) => theme.color.cornflowerBlue};
+    background-color: ${({ theme }) => theme.color.scienceBlue};
     border-radius: 50%;
     margin-right: 16px;
 

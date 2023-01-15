@@ -10,7 +10,7 @@ export const Header = styled.h2`
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 24px;
-  color: ${({ theme }) => theme.color.cornflowerBlue};
+  color: ${({ theme }) => theme.color.scienceBlue};
 `;
 
 export const Description = styled.p`
