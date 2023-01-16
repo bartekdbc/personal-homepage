@@ -1,17 +1,12 @@
 import { socialsData } from "./socialsData";
-import { Item, StyledSocialIcon, Icon, Link } from "./styled";
+import { Item, StyledSocialIcon, Link } from "./styled";
 
 const Socials = () => (
   <StyledSocialIcon>
-    {socialsData.map(({ name, address, icon }) => (
+    {socialsData.map(({ name, url, Icon }) => (
       <Item key={name}>
-        <Link
-          href={address}
-          title={name}
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          <Icon src={icon} />
+        <Link href={url} title={name} target="_blank" rel="noreferrer noopener">
+          <Icon />
         </Link>
       </Item>
     ))}
