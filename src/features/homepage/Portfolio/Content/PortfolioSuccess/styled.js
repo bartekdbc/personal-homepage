@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { StyledSection } from "../../../../common/Section/styled";
+import { StyledSection } from "../../../../../common/Section/styled";
 
 export const Wrapper = styled(StyledSection)`
   padding: 56px;

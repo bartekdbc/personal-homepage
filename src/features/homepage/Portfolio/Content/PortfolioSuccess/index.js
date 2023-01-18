@@ -1,6 +1,6 @@
 import { Description, Header, List, ListItem, Wrapper } from "./styled";
 
-const Tile = () => (
+const PortfolioSuccess = () => (
   <Wrapper>
     <Header>Movies Browser</Header>
     <Description>
@@ -14,4 +14,4 @@ const Tile = () => (
   </Wrapper>
 );
 
-export default Tile;
+export default PortfolioSuccess;
