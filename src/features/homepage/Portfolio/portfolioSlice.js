@@ -25,7 +25,9 @@ export const { fetchPortfolio, fetchPortfolioSuccess, fetchPortfolioError } =
 
 export const selectPortfolio = (state) => state.portfolio;
 
-export const selectPortfolioState = (state) => state.portfolioState;
-export const selectPortfolioList = (state) => state.portfolioList;
+export const selectPortfolioState = (state) =>
+  selectPortfolio(state).portfolioState;
+export const selectPortfolioList = (state) =>
+  selectPortfolio(state).portfolioList;
 
 export const portfolioReducer = portfolioSlice.reducer;
