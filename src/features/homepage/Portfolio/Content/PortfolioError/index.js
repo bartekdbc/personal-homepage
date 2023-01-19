@@ -2,7 +2,7 @@ import { ButtonLink } from "../../../../../common/ButtonLink";
 import { username } from "../../githubData";
 import { ErrorIcon, ErrorText, Paragraph, Wrapper } from "./styled";
 
-const PortfolioFail = () => (
+const PortfolioError = () => (
   <Wrapper>
     <ErrorIcon />
     <ErrorText>Ooops! Something went wrong... </ErrorText>
@@ -12,7 +12,7 @@ const PortfolioFail = () => (
     </Paragraph>
     <ButtonLink
       href={`https://github.com/${username}`}
-      title="Github"
+      title="github.com/bartekdbc"
       target="_blank"
       rel="noreferrer noopener"
     >
@@ -21,4 +21,4 @@ const PortfolioFail = () => (
   </Wrapper>
 );
 
-export default PortfolioFail;
+export default PortfolioError;
