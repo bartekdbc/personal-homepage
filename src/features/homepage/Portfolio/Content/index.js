@@ -1,4 +1,4 @@
-import PortfolioFail from "./PortfolioFail";
+import PortfolioFail from "./PortfolioFail/";
 import PortfolioLoading from "./PortfolioLoading";
 import PortfolioSuccess from "./PortfolioSuccess";
 
@@ -17,7 +17,7 @@ const Content = ({ state, portfolio }) => {
       return <PortfolioFail />;
 
     default:
-      throw new Error("incorrect state");
+      throw new Error(`incorrect state: ${state}`);
   }
 };
 

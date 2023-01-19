@@ -1,12 +1,12 @@
 import { Header, Icon, Section, Subheader, Title } from "./styled";
-import Content from "./Content/PortfolioSuccess";
+import { useEffect } from "react";
+import Content from "./Content";
 import { useDispatch, useSelector } from "react-redux";
 import {
   fetchPortfolio,
   selectPortfolioList,
   selectPortfolioState,
 } from "./portfolioSlice";
-import { useEffect } from "react";
 
 const Portfolio = () => {
   const dispatch = useDispatch();
@@ -24,7 +24,7 @@ const Portfolio = () => {
         <Subheader>Portfolio</Subheader>
         <Title>My recent projects</Title>
       </Header>
-      <Content portfolio={portfolio} state={portfolioState} />
+      <Content state={portfolioState} portfolio={portfolio} />
     </Section>
   );
 };
