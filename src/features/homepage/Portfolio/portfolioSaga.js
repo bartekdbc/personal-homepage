@@ -17,6 +17,6 @@ function* fetchPortfolioHandler() {
   }
 }
 
-export function* portfolioSaga() {
+export function* watchFetchPortfolio() {
   yield takeLatest(fetchPortfolio.type, fetchPortfolioHandler);
 }
