@@ -6,6 +6,8 @@ export const Wrapper = styled(StyledSection)`
   border: 6px solid ${({ theme }) => theme.color.underlineGray};
 `;
 
+export const Tile = styled.div``;
+
 export const Header = styled.h2`
   font-size: 24px;
   font-weight: 700;

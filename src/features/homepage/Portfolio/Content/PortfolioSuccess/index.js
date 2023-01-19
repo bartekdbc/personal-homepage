@@ -1,16 +1,17 @@
-import { Description, Header, List, ListItem, Wrapper } from "./styled";
+import { Description, Header, List, ListItem, Tile, Wrapper } from "./styled";
 
-const PortfolioSuccess = () => (
+const PortfolioSuccess = ({ portfolio }) => (
   <Wrapper>
-    <Header>Movies Browser</Header>
-    <Description>
-      Project description, e.g. website where you can search for favourite
-      movies and people. Project description, e.g. website where you can search.
-    </Description>
-    <List>
-      <ListItem> Demo: https://link.demo.com </ListItem>
-      <ListItem> Code: https://link.code.com</ListItem>
-    </List>
+    {portfolio?.map(({ id, name, description, homepage, html_url }) => (
+      <Tile key={id}>
+        <Header>{name}</Header>
+        <Description>{description}</Description>
+        <List>
+          <ListItem> Demo: {homepage} </ListItem>
+          <ListItem> Code: {html_url}</ListItem>
+        </List>
+      </Tile>
+    ))}
   </Wrapper>
 );
 
