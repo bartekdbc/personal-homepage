@@ -1,7 +1,13 @@
 import { ReactComponent as PortfolioIcon } from "./portfolio.svg";
 import styled from "styled-components";
 
-export const Section = styled.section``;
+export const Section = styled.section`
+  margin-bottom: 120px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
+    margin-bottom: 48px;
+  }
+`;
 
 export const Header = styled.header`
   text-align: center;
