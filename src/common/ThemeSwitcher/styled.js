@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { ReactComponent as Sun } from "./sun.svg";
 
 export const Container = styled.div`
@@ -39,6 +39,13 @@ export const SunBackground = styled.span`
   background-color: ${({ theme }) => theme.color.slateGray};
   border-radius: 50%;
   display: flex;
+  transition: transform 0.3s;
+
+  ${({ moveToRight }) =>
+    moveToRight &&
+    css`
+      transform: translateX(20px);
+    `};
 `;
 
 export const SunIcon = styled(Sun)`
