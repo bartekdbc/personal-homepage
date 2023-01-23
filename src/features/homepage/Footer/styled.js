@@ -21,7 +21,7 @@ export const Contact = styled.a`
   font-size: 32px;
   font-weight: 900;
   line-height: 39px;
-  color: ${({ theme }) => theme.color.black};
+  color: ${({ theme }) => theme.color.mineShaft};
   text-decoration: none;
   transition: color 0.3s;
   cursor: pointer;

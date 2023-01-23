@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background-color: ${({ theme }) => theme.color.whiteLilac};
     font-family: 'Inter', sans-serif;
-    color: ${({ theme }) => theme.color.black};;
+    color: ${({ theme }) => theme.color.mineShaft};;
     padding: 16px;
     letter-spacing: 0.05em;
   }

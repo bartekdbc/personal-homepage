@@ -5,7 +5,7 @@ export const ButtonLink = styled.a`
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-  border: 1px solid ${({ theme }) => theme.color.underlineGray};
+  border: 1px solid ${({ theme }) => theme.color.transparentGray};
   padding: 12px 16px;
   border-radius: 4px;
   background-color: ${({ theme }) => theme.color.scienceBlue};
@@ -17,8 +17,10 @@ export const ButtonLink = styled.a`
   text-decoration: none;
 
   &:hover {
-    box-shadow: 2px -2px 0px #8cc2ff, -2px 2px 0px #8cc2ff, 2px 2px 0px #8cc2ff,
-      -2px -2px 0px #8cc2ff;
+    box-shadow: 2px -2px 0px ${({ theme }) => theme.color.anakiwa},
+      -2px 2px 0px ${({ theme }) => theme.color.anakiwa},
+      2px 2px 0px ${({ theme }) => theme.color.anakiwa},
+      -2px -2px 0px ${({ theme }) => theme.color.anakiwa};
   }
 
   &:active {
