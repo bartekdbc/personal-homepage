@@ -28,7 +28,7 @@ export const Text = styled.span`
 export const Switcher = styled.span`
   width: 48px;
   background-color: ${({ theme }) => theme.color.mercury};
-  border: 1px solid ${({ theme }) => theme.color.underlineGray};
+  border: 1px solid ${({ theme }) => theme.color.transparentGray};
   border-radius: 13px;
   padding: 3px;
   display: flex;

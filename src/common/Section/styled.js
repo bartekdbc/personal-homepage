@@ -19,7 +19,7 @@ export const Title = styled.h2`
   font-weight: 900;
   margin: 0;
   padding: 0 0 16px;
-  border-bottom: 1px solid ${({ theme }) => theme.color.underlineGray};
+  border-bottom: 1px solid ${({ theme }) => theme.color.transparentGray};
 
   @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
     font-size: 18px;
