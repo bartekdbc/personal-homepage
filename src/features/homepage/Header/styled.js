@@ -44,7 +44,7 @@ export const MiniTitle = styled.p`
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
-  color: ${({ theme }) => theme.color.slateGray};
+  color: ${({ theme }) => theme.colors.content.text};
   margin: 0;
 `;
 
@@ -65,7 +65,7 @@ export const Title = styled.h1`
 `;
 
 export const Text = styled.p`
-  color: ${({ theme }) => theme.color.slateGray};
+  color: ${({ theme }) => theme.colors.content.text};
   padding: 0 0 32px;
   line-height: 1.4;
   margin: 0;

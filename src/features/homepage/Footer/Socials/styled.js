@@ -17,11 +17,11 @@ export const Item = styled.li`
 
 export const Link = styled.a`
   text-decoration: none;
-  color: ${({ theme }) => theme.color.mineShaft};
+  color: ${({ theme }) => theme.colors.textPrimary};
   transition: color 0.3s;
 
   &:hover {
-    color: ${({ theme }) => theme.color.scienceBlue};
+    color: ${({ theme }) => theme.colors.primary};
   }
 `;
 

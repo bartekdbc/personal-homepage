@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Paragraph = styled.p`
-  color: ${({ theme }) => theme.color.mineShaft};
+  color: ${({ theme }) => theme.colors.portfolio.text};
   font-size: 20px;
   font-weight: 400;
   line-height: 1.4;
@@ -26,9 +26,9 @@ export const Spinner = styled.div`
   margin: 0 auto;
   width: 160px;
   height: 160px;
-  border: 11px solid ${({ theme }) => theme.color.transparentGray};
+  border: 11px solid ${({ theme }) => theme.colors.portfolio.spinner};
   border-radius: 50%;
-  border-right-color: ${({ theme }) => theme.color.scienceBlue};
+  border-right-color: ${({ theme }) => theme.colors.portfolio.spinnerColor};
   animation: spin 1.2s linear infinite;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.small}) {

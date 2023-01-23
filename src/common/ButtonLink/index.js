@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const ButtonLink = styled.a`
-  color: ${({ theme }) => theme.color.white};
+  color: ${({ theme }) => theme.colors.buttonLink.text};
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-  border: 1px solid ${({ theme }) => theme.color.transparentGray};
+  border: 1px solid ${({ theme }) => theme.colors.buttonLink.border};
   padding: 12px 16px;
   border-radius: 4px;
-  background-color: ${({ theme }) => theme.color.scienceBlue};
+  background-color: ${({ theme }) => theme.colors.primary};
   display: inline-flex;
   align-items: center;
   gap: 16px;
@@ -17,10 +17,10 @@ export const ButtonLink = styled.a`
   text-decoration: none;
 
   &:hover {
-    box-shadow: 2px -2px 0px ${({ theme }) => theme.color.anakiwa},
-      -2px 2px 0px ${({ theme }) => theme.color.anakiwa},
-      2px 2px 0px ${({ theme }) => theme.color.anakiwa},
-      -2px -2px 0px ${({ theme }) => theme.color.anakiwa};
+    box-shadow: 2px -2px 0px ${({ theme }) => theme.colors.buttonLink.shadowHover},
+      -2px 2px 0px ${({ theme }) => theme.colors.buttonLink.shadowHover},
+      2px 2px 0px ${({ theme }) => theme.colors.buttonLink.shadowHover},
+      -2px -2px 0px ${({ theme }) => theme.colors.buttonLink.shadowHover};
   }
 
   &:active {

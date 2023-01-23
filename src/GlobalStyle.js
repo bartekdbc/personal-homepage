@@ -10,9 +10,9 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color: ${({ theme }) => theme.color.whiteLilac};
+    background-color: ${({ theme }) => theme.colors.content.background};
     font-family: 'Inter', sans-serif;
-    color: ${({ theme }) => theme.color.mineShaft};;
+    color: ${({ theme }) => theme.colors.content.text};;
     padding: 16px;
     letter-spacing: 0.05em;
   }

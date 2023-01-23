@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledList = styled.ul`
   font-size: 18px;
-  color: ${({ theme }) => theme.color.slateGray};
+  color: ${({ theme }) => theme.colors.content.text};
   padding: 0;
   margin: 32px 0 0;
   display: grid;
@@ -31,7 +31,7 @@ export const ListItem = styled.li`
     display: inline-block;
     width: 9px;
     height: 9px;
-    background-color: ${({ theme }) => theme.color.scienceBlue};
+    background-color: ${({ theme }) => theme.colors.primary};
     border-radius: 50%;
     margin-right: 16px;
 

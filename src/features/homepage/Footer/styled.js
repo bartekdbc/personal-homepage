@@ -8,7 +8,7 @@ export const Preheader = styled.p`
   font-size: 12px;
   font-weight: 700;
   line-height: 1.3;
-  color: ${({ theme }) => theme.color.slateGray};
+  color: ${({ theme }) => theme.colors.content.text};
   text-transform: uppercase;
   margin-bottom: 24px;
 
@@ -21,13 +21,13 @@ export const Contact = styled.a`
   font-size: 32px;
   font-weight: 900;
   line-height: 39px;
-  color: ${({ theme }) => theme.color.mineShaft};
+  color: ${({ theme }) => theme.colors.textPrimary};
   text-decoration: none;
   transition: color 0.3s;
   cursor: pointer;
 
   &:hover {
-    color: ${({ theme }) => theme.color.scienceBlue};
+    color: ${({ theme }) => theme.colors.primary};
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
