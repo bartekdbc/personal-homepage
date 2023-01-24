@@ -3,9 +3,11 @@ import picture from "./images/picture.jpg";
 import { ReactComponent as MessageIcon } from "./images/message.svg";
 import { email } from "../email";
 import { ButtonLink } from "../../../common/ButtonLink";
+import ThemeSwitcher from "../../../common/ThemeSwitcher";
 
 const Header = () => (
   <Wrapper>
+    <ThemeSwitcher />
     <Image src={picture} alt="Bartek" />
     <Content>
       <MiniTitle>this is</MiniTitle>

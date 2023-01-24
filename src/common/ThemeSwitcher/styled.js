@@ -3,8 +3,8 @@ import { ReactComponent as Sun } from "./sun.svg";
 
 export const Container = styled.div`
   display: flex;
-  justify-content: flex-end;
-  position: relative;
+  place-self: flex-start flex-end;
+  position: absolute;
 `;
 
 export const StyledThemeSwitcher = styled.button`
