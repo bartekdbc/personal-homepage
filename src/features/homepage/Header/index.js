@@ -13,8 +13,10 @@ const Header = () => (
       <MiniTitle>this is</MiniTitle>
       <Title>Bartłomiej Dębiec</Title>
       <Text>
-        👨‍💻 I'm a passionate Frontend Developer in love with React, currently
-        looking for new job opportunities.
+        👨‍💻 I'm a enthusiastic Frontend Developer who is passionate about new
+        technologies, artificial inteligence and science. Javascript is my
+        Language, React is how I speak. Highly motivated, currently looking for
+        new job opportunities.
       </Text>
       <ButtonLink
         href={`mailto:${email}`}
