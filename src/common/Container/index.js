@@ -1,10 +1,5 @@
-import styled from "styled-components";
+import { Wrapper } from "./styled";
 
-export const Container = styled.div`
-  max-width: 1200px;
-  margin: 115px auto 109px;
+const Container = ({ children }) => <Wrapper>{children}</Wrapper>;
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
-    margin: 32px auto;
-  }
-`;
+export default Container;
