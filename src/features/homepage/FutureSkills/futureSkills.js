@@ -1,7 +1,8 @@
 export const futureSkills = [
-  { content: "JS classes" },
   { content: "Typescript" },
+  { content: "React Context" },
+  { content: "Figma" },
+  { content: "JS classes" },
   { content: "Node.js" },
   { content: "Cypress" },
-  { content: "Unit testing" },
 ];

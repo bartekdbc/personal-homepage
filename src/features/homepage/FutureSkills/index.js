@@ -11,7 +11,7 @@ const FutureSkills = () => {
 
   return (
     <Section
-      title={"What I want to learn next 🚀"}
+      title={"What I want to learn next 🎓"}
       body={<List listContent={futureSkillsWithIndex} />}
     ></Section>
   );
