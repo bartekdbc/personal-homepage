@@ -2,7 +2,6 @@ import {
   Description,
   Header,
   Link,
-  Links,
   LinksRow,
   LinksTitle,
   List,
@@ -23,30 +22,20 @@ const PortfolioSuccess = ({ portfolio }) => {
       {sortedByCreateDayPortfolio.map(
         ({ id, name, description, homepage, html_url }) => (
           <Tile key={id}>
-            <Header>{name}</Header>
+            <Header>{name.replaceAll("-", " ")}</Header>
             <Description>{description}</Description>
-            <Links>
-              <LinksRow>
-                <LinksTitle>Demo:</LinksTitle>
-                <Link
-                  href={homepage}
-                  target="_blank"
-                  rel="noreferrerr noopener"
-                >
-                  Project Demo
-                </Link>
-              </LinksRow>
-              <LinksRow>
-                <LinksTitle>Code:</LinksTitle>
-                <Link
-                  href={html_url}
-                  target="_blank"
-                  rel="noreferrerr noopener"
-                >
-                  Github Repository
-                </Link>
-              </LinksRow>
-            </Links>
+            <LinksRow>
+              <LinksTitle>Demo:</LinksTitle>
+              <Link href={homepage} target="_blank" rel="noreferrerr noopener">
+                Project Demo
+              </Link>
+            </LinksRow>
+            <LinksRow>
+              <LinksTitle>Code:</LinksTitle>
+              <Link href={html_url} target="_blank" rel="noreferrerr noopener">
+                Github Repository
+              </Link>
+            </LinksRow>
           </Tile>
         )
       )}

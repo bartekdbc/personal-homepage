@@ -41,6 +41,7 @@ export const Header = styled.h3`
   font-weight: 700;
   margin: 0 0 24px;
   color: ${({ theme }) => theme.colors.tile.header};
+  text-transform: capitalize;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
     font-size: 16px;
@@ -60,9 +61,9 @@ export const Description = styled.p`
   }
 `;
 
-export const Links = styled.div`
-  display: grid;
-  grid-gap: 8px;
+export const LinksRow = styled.div`
+  display: flex;
+  margin: 0 0 8px;
   font-size: 18px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
@@ -71,12 +72,10 @@ export const Links = styled.div`
   }
 `;
 
-export const LinksRow = styled.div`
-  word-break: break-all;
-`;
-
 export const LinksTitle = styled.span`
   margin-right: 8px;
+  max-width: 60px;
+  width: 100%;
   color: ${({ theme }) => theme.colors.content.text};
 `;
 
