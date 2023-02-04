@@ -10,9 +10,9 @@ const Footer = () => {
         bartekdbc@gmail.com
       </Contact>
       <Content>
-        I'am always open to new projects whenever I have the time. If you have a
-        website, dashboard or mobile app in mind and need some help to make your
-        ideas come to life, feel free to contact me. ✌️
+        I'm always open to new projects and ideas. If you are looking for a
+        committed team member with great analytical skills and a passion for
+        teamwork, feel free to contact me. 📩
       </Content>
       <Socials></Socials>
     </StyledFooter>

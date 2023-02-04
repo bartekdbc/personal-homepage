@@ -38,6 +38,7 @@ export const Contact = styled.a`
 
 export const Content = styled.p`
   font-size: 18px;
+  line-height: 1.4;
   margin: 24px 0 56px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
