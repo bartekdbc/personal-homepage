@@ -21,7 +21,7 @@ export const Wrapper = styled.div`
 
 export const Image = styled.img`
   width: 40vw;
-  max-width: 390px;
+  max-width: 398px;
   border-radius: 50%;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
