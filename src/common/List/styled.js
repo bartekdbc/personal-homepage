@@ -6,6 +6,7 @@ export const StyledList = styled.ul`
   padding: 0;
   margin: 32px 0 0;
   display: grid;
+  grid-gap: 8px 32px;
   grid-template-columns: repeat(3, 1fr);
 
   @media (max-width: ${({ theme }) => theme.breakpoint.large}) {
@@ -23,7 +24,6 @@ export const ListItem = styled.li`
   line-height: 1.4;
   list-style: none;
   display: flex;
-  margin: 0 0 8px;
   align-items: center;
 
   &:before {

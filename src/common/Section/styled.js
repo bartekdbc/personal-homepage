@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledSection = styled.section`
   margin-bottom: 72px;
-  padding: 32px 32px 24px;
+  padding: 32px;
   background-color: ${({ theme }) => theme.colors.boxBackground};
   border-radius: 4px;
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02),
