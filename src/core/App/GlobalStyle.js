@@ -11,6 +11,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     background-color: ${({ theme }) => theme.colors.content.background};
+    transition: background 0.3s;
     font-family: 'Inter', sans-serif;
     color: ${({ theme }) => theme.colors.textPrimary};;
     padding: 16px;
