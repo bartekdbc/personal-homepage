@@ -7,9 +7,11 @@ import {
   fetchPortfolioSuccess,
 } from "./portfolioSlice";
 
+const loadingDelay = 1000;
+
 function* fetchPortfolioHandler() {
   try {
-    yield delay(1000);
+    yield delay(loadingDelay); // just to demo the loading
     const portfolio = yield call(getPortfolio, githubAPIUrl(username));
     yield put(fetchPortfolioSuccess(portfolio));
   } catch (error) {
