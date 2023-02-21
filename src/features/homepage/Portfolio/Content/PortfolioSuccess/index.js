@@ -24,12 +24,18 @@ const PortfolioSuccess = ({ portfolio }) => {
           <Tile key={id}>
             <Header>{name.replaceAll("-", " ")}</Header>
             <Description>{description}</Description>
-            <LinksRow>
-              <LinksTitle>Demo:</LinksTitle>
-              <Link href={homepage} target="_blank" rel="noreferrerr noopener">
-                Project Demo
-              </Link>
-            </LinksRow>
+            {!!homepage && (
+              <LinksRow>
+                <LinksTitle>Demo:</LinksTitle>
+                <Link
+                  href={homepage}
+                  target="_blank"
+                  rel="noreferrerr noopener"
+                >
+                  Project Demo
+                </Link>
+              </LinksRow>
+            )}
             <LinksRow>
               <LinksTitle>Code:</LinksTitle>
               <Link href={html_url} target="_blank" rel="noreferrerr noopener">
