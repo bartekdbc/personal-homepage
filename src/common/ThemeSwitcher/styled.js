@@ -4,7 +4,6 @@ import { ReactComponent as Sun } from "./sun.svg";
 export const Container = styled.div`
   display: flex;
   justify-content: flex-end;
-  align-items: center;
 `;
 
 export const StyledThemeSwitcher = styled.button`

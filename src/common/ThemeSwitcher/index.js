@@ -15,9 +15,9 @@ const ThemeSwitcher = () => {
 
   return (
     <Container>
-      <StyledThemeSwitcher>
+      <StyledThemeSwitcher onClick={() => dispatch(toggleTheme())}>
         <Text>Dark Mode {isDarkTheme ? "On" : "Off"}</Text>
-        <Switcher onClick={() => dispatch(toggleTheme())}>
+        <Switcher>
           <SunBackground moveToRight={isDarkTheme}>
             <SunIcon />
           </SunBackground>
