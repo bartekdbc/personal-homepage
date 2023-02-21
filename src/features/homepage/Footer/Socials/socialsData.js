@@ -11,7 +11,7 @@ export const socialsData = [
   },
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/bartek-d%C4%99biec-819333261/",
+    url: "https://www.linkedin.com/in/bartlomiejdebiec/",
     Icon: styleIcon(LinkedInIcon),
   },
   {
