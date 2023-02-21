@@ -5,10 +5,11 @@ import { ErrorIcon, ErrorText, Paragraph, Wrapper } from "./styled";
 const PortfolioError = () => (
   <Wrapper>
     <ErrorIcon />
-    <ErrorText>Ooops! Something went wrong... </ErrorText>
+    <ErrorText>Ooops! Something went&nbsp;wrong... </ErrorText>
     <Paragraph>
-      Sorry, failed to load Github projects. You can check them directly on
-      Github.
+      Sorry, failed to load Github&nbsp;projects.
+      <br />
+      You can check them directly&nbsp;on&nbsp;Github.
     </Paragraph>
     <ButtonLink
       href={`https://github.com/${username}`}

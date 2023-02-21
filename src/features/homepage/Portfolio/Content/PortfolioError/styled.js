@@ -26,7 +26,7 @@ export const ErrorText = styled.p`
   margin: 0 0 32px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
-    font-size: 20px;
+    font-size: 18px;
     margin: 0 0 16px;
   }
 `;
