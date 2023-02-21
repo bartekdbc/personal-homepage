@@ -6,7 +6,7 @@ import { ButtonLink } from "../../../common/ButtonLink";
 
 const Header = () => (
   <Wrapper>
-    <Image src={picture} alt="Bartek" />
+    <Image src={picture} alt="Bartlomiej Debiec" />
     <Content>
       <MiniTitle>this is</MiniTitle>
       <Title>Bartlomiej Debiec</Title>

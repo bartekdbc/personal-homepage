@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
+  margin-top: -30px; // that's height of the theme switch
   display: grid;
-  grid-template-columns: auto 4fr auto;
+  grid-template-columns: auto 1fr;
   grid-gap: 64px;
   max-width: 1097px;
   margin-bottom: 63px;
@@ -20,8 +21,8 @@ export const Wrapper = styled.div`
 `;
 
 export const Image = styled.img`
-  width: 40vw;
-  max-width: 398px;
+  width: 30vw;
+  max-width: 384px;
   border-radius: 50%;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
@@ -69,6 +70,7 @@ export const Text = styled.p`
   padding: 0 0 32px;
   line-height: 1.4;
   margin: 0;
+  max-width: 650px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.medium}) {
     padding: 12px 0 24px;
@@ -77,6 +79,7 @@ export const Text = styled.p`
   @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
     font-size: 17px;
     padding: 4px 0 24px;
+    max-width: 570px;
   }
 `;
 
