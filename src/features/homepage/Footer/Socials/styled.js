@@ -8,10 +8,12 @@ export const StyledSocialIcon = styled.ul`
 `;
 
 export const Item = styled.li`
-  margin-right: 24px;
+  &:not(:last-child) {
+    margin-right: 24px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
-    margin-right: 16px;
+    @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
+      margin-right: 16px;
+    }
   }
 `;
 
