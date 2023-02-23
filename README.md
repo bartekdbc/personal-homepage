@@ -1,5 +1,16 @@
 # Personal Homepage
 
+## Table of content
+
+- [Demo](#demo)
+- [Preview](#preview)
+- [General Information](#general-information)
+- [How to use](#how-to-use)
+- [Tech Stack](#tech-stack)
+- [Authors](#authors)
+- [External Sources](#external-sources)
+- [Available Scripts](#available-scripts)
+
 ## 🎮Demo
 
 You can find a demo version [here](https://bartekdbc.github.io/personal-homepage/).
