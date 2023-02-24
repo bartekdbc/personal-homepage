@@ -7,7 +7,6 @@
 - [General Information](#general-information)
 - [How to use](#how-to-use)
 - [Tech Stack](#tech-stack)
-- [Authors](#authors)
 - [External Sources](#external-sources)
 - [Available Scripts](#available-scripts)
 
