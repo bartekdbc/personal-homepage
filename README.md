@@ -14,6 +14,14 @@
 
 You can find a demo version [here](https://bartekdbc.github.io/personal-homepage/).
 
+## General information
+
+Single page application made in React. It includes lists of my projects, skills and things I would like to learn next.
+
+The repositories are fetched from the GitHub API and they are sorted by create date. The website has a theme switcher which changes site's color theme from light to dark. The theme color is saved in a local storage.
+
+At the top of the page there is a "Hire me" button, clicking it will scroll to the bottom of the page, where I have listed all the communication channels through which you can contact me.
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
