@@ -1,30 +1,44 @@
-# Personal Homepage
+# Personal Homepage 📇
 
 ## Table of content
 
 - [Demo](#demo)
-- [Preview](#preview)
 - [General Information](#general-information)
-- [How to use](#how-to-use)
-- [Tech Stack](#tech-stack)
-- [External Sources](#external-sources)
+- [Preview](#preview)
+- [Technologies](#technologies)
 - [Available Scripts](#available-scripts)
 
-## 🎮Demo
+## Demo
 
 You can find a demo version [here](https://bartekdbc.github.io/personal-homepage/).
 
 ## General information
 
-Single page application made in React. It includes lists of my projects, skills and things I would like to learn next.
+Personal Homepage is a single page application made in React. It presents skills that I possess, includes list of my projects and shows fields in which I would like to develop in the future.
 
-The repositories are fetched from the GitHub API and they are sorted by create date. The website has a theme switcher which changes site's color theme from light to dark. The theme color is saved in a local storage.
+The repositories are fetched from the GitHub API and they are sorted by creation date. The website has a theme switcher which changes site's color theme from light to dark. Moreover, the theme color is saved in a local storage.
 
-At the top of the page there is a "Hire me" button, clicking it will scroll to the bottom of the page, where I have listed all the communication channels through which you can contact me.
-
-## Getting Started with Create React App
+At the bottom of the page there are isted all the communication channels through which you can contact me.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Preview
+
+![Preview](/Preview.gif)
+
+## Technologies
+
+- HTML
+- JavaScript (ES6+)
+- CSS (Flex, Grid, media queries)
+- React
+- Create-react-app
+- Styled Components
+- ThemeProvider
+- Redux / Toolkit
+- Redux-Saga
+- Promises, async/await
+- Local Storage
 
 ## Available Scripts
 
