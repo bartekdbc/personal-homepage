@@ -18,7 +18,7 @@ Personal Homepage is a single page application made in React. It presents skills
 
 The repositories are fetched from the GitHub API and they are sorted by creation date. The website has a theme switcher which changes site's color theme from light to dark. Moreover, the theme color is saved in a local storage.
 
-At the bottom of the page there are isted all the communication channels through which you can contact me.
+At the bottom of the page there are listed all the communication channels through which you can contact me.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
