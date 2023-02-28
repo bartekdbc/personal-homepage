@@ -7,6 +7,7 @@ export const skills = [
   { content: "CSS Flexbox" },
   // eslint-disable-next-line
   { content: "JavaScript: ES6+" },
+  { content: "TypeScript" },
   { content: "Promises, Async/Await" },
   { content: "Local Storage" },
   { content: "Error handling" },
@@ -22,6 +23,5 @@ export const skills = [
   { content: "Git" },
   { content: "GitHub Pull Requests & Review" },
   { content: "Scrum" },
-  { content: "Trello" },
   { content: "Teamwork" },
 ];
