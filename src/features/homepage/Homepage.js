@@ -1,4 +1,4 @@
-import Container from "../../common/Container";
+import { Container } from "../../common/Container/styled";
 import ThemeSwitcher from "../../common/ThemeSwitcher";
 import Footer from "./Footer";
 import FutureSkills from "./FutureSkills";
