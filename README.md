@@ -22,8 +22,6 @@ The repositories are fetched from the GitHub API and they are sorted by creation
 
 At the bottom of the page there are listed all the communication channels through which you can contact me.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Preview
 
 ![Preview](/Preview.gif)
@@ -41,6 +39,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Redux-Saga
 - Promises, async/await
 - Local Storage
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
